@@ -1,0 +1,6 @@
+#container {
+    width: 960px;
+    height: 960px;
+    display: grid;
+    grid-template: repeat(16, 1f) / repeat(16, 1f);
+}
