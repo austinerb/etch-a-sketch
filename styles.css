@@ -1,6 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://static01.nyt.com/images/2012/03/22/garden/22ETCH/22ETCH-jumbo.jpg");
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(216, 45, 45);
+    width: 500px;
+    margin: 50px auto 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px black;
+}
+
+button {
+    border: 0;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: 0 0 15px black;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(65, 65, 224);
+    color: white;
+}
+
 #container {
-    width: 960px;
-    height: 960px;
     display: grid;
     grid-template: repeat(16, 1f) / repeat(16, 1f);
+    margin: 0 auto;
+    box-shadow: 0 0 15px black;
+    grid-row-gap: 0;
+    grid-column-gap: 0;
+}
+
+.container-item {
+    margin: 0;
+    padding: 0;
 }
